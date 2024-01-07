@@ -11,6 +11,7 @@
 		8E4415832B483869006AB005 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4415822B483869006AB005 /* ContentView.swift */; };
 		8E4415852B48386A006AB005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E4415842B48386A006AB005 /* Assets.xcassets */; };
 		8E4415882B48386A006AB005 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E4415872B48386A006AB005 /* Preview Assets.xcassets */; };
+		8E8870B52B4AC695001674D3 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8870B42B4AC695001674D3 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		8E4415822B483869006AB005 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8E4415842B48386A006AB005 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E4415872B48386A006AB005 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8E8870B42B4AC695001674D3 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		8E44157F2B483869006AB005 /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				8E8870B62B4ACD5A001674D3 /* Views */,
 				8E4415802B483869006AB005 /* LandmarksApp.swift */,
 				8E4415822B483869006AB005 /* ContentView.swift */,
 				8E4415842B48386A006AB005 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				8E4415872B48386A006AB005 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8E8870B62B4ACD5A001674D3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8E8870B42B4AC695001674D3 /* CircleImage.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				8E4415832B483869006AB005 /* ContentView.swift in Sources */,
 				8E4415812B483869006AB005 /* LandmarksApp.swift in Sources */,
+				8E8870B52B4AC695001674D3 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
