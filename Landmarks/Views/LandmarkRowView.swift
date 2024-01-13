@@ -17,6 +17,9 @@ struct LandmarkRowView: View {
 
 struct LandmarkRowView_Previews: PreviewProvider {
     static var previews: some View {
-        LandmarkRowView(landmark: landmarks[0])
+        VStack {
+            LandmarkRowView(landmark: landmarks[0])
+            LandmarkRowView(landmark: landmarks[1])
+        }
     }
 }

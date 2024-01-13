@@ -67,7 +67,6 @@
 				8E8870BB2B4FFEBE001674D3 /* Resources */,
 				8E8870B62B4ACD5A001674D3 /* Views */,
 				8E4415802B483869006AB005 /* LandmarksApp.swift */,
-				8E4415822B483869006AB005 /* ContentView.swift */,
 				8E4415862B48386A006AB005 /* Preview Content */,
 			);
 			path = Landmarks;
@@ -85,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				8E8870B42B4AC695001674D3 /* CircleImageView.swift */,
+				8E4415822B483869006AB005 /* ContentView.swift */,
 				8E8870C12B51AB57001674D3 /* LandmarkRowView.swift */,
 				8E8870B72B4AEECB001674D3 /* MapView.swift */,
 			);
